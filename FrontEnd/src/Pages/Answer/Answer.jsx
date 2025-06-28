@@ -213,6 +213,7 @@ const AnswerPage = () => {
   return (
     <div className={styles.answerBg}>
       <div className="appContainer">
+        {/* 
         <div className={styles.topSection}>
           <div className={styles.questionInfo}>
             {question && (
@@ -227,6 +228,7 @@ const AnswerPage = () => {
             )}
           </div>
         </div>
+         */}
         <div className="card">
           {question ? (
             <>
